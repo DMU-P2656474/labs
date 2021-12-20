@@ -1,0 +1,214 @@
+h1{                                   /* PAGE TITLE (PAGE 1 & 2) */
+                                      /* For the title I have tried to keep the design simple
+                                      and alike the menu bar. I wanted the text to be legible
+                                      and reasonably sized so people can easily identify what the page is about.
+                                      I have used such a font and colour for the text for the same reason of identification.
+                                      I have also centered the text to keep the page layout clear and balanced.*/
+
+border-style: inset;                  /* I've added a border around the text for design purposes
+                                      to help with grabbing the attention of the viewer and
+                                      to fit with the theme of the page. */
+background-color: #111;
+border-color: #900;                   /* There is also padding inbetween the text and the border to genertate space.
+                                      In addition, I have added a text-shadow for design purposes to fit with the aesthetic
+                                      of the page. I have also underlined the text to further clarify that this is the title. */
+border-width: 5px;
+padding: 20px;
+font-size: 34px;
+text-align: center;
+font-family: "Verdana", Sans-serif;
+text-align: center;
+text-shadow: 2px 2px darkred;
+text-decoration: underline;
+color: lightgrey;
+
+}
+
+
+
+
+
+.T1{
+
+margin-left: inherit;                 /* HEADINGS TEXT */
+                                      /* About Section */
+margin: 10px;                         /* I have added a margin to spread
+                                      out the text so that it isn't cramped up against the edge of the page
+                                      and to keep an orderly structure.  */
+font-family: "Arial", Sans-serif;
+text-align: left;                     /* I have also sized the text so that it is clear enough to see but not too big
+                                      that it overshadows the title. Same with the colour and font of the text,
+                                      I didn't want it to be identical to the title or menu bar. I changed them
+                                      so that it's easy to differentiate between them.  */
+font-size: 20px;
+color: lightgrey;                     /* For the headings of both pages I have
+                                      added a background to highlight each section of text
+                                      which is there for the purpose of helping the viewer
+                                      identify which segment of the page they are reading. */
+background-color: #111;
+background-position: left;            /* I also didn't want the background to take up the entirety of the
+                                      right-hand size. Subsequently, I altered the width/height so that it only
+                                      covers the text in keeping with the appearance and orderliness of the page. */
+width:150px;
+height: 30px;
+
+}
+
+.T2{
+
+  margin-left: inherit;                /* HEADINGS TEXT */
+  margin: 10px;                        /* Trailer Section */
+  font-family: "Arial", Sans-serif;
+  text-align: left;
+  font-size: 20px;
+  color: lightgrey;
+  background-color: #111;
+  background-position: left;
+  width:252px;                         /* I wanted the width of the backgrounds of each heading to be similar
+                                       so I altered their width (px) to tidy up the page and make it look more symmetrical.*/
+  height: 30px;
+
+}
+
+.T3{
+
+margin-left: inherit;
+margin: 10px;
+font-family: "Arial", sans-serif;
+text-align: left;
+font-size: 20px;
+color: lightgrey;
+background-color: #111;
+background-position: left;
+width: 93px;
+height: 30px;
+
+}
+
+.T1-Page2{
+
+position: fixed;                       /* HEADINGS TEXT */
+right: 480px;
+top: 200px;                          /* Page 2 About Section */
+font-family: "Arial", sans-serif;      /* I have positioned the text this way to try and stick to a proposed layout
+                                       as much as posible. */
+text-align: left;
+font-size: 20px;
+color: lightgrey;
+background-color: #111;
+background-position: left;
+width: 93px;
+height: 30px;
+margin-left: inherit;
+margin: 10px;
+
+}
+
+.P1-Page2{
+
+position: fixed;
+right:450px;
+bottom:175px;
+margin-left: inherit;
+margin: 10px;
+font-family: "Arial", Sans-serif;
+
+}
+
+
+
+
+
+ul {                            /* MENU BAR */
+  list-style-type: none;        /* For this section of code I wanted a nice and simple
+                                Menu bar. I've used legible text (Verdana, Sans-serif)
+                                and have set it to a reasonable size which should be
+                                easy enough for someone viewing my page to understand.
+                                The Active page should be displayed in red to make it
+                                even clearer for navigating between pages.*/
+  margin: 10px;                 /* I've also added a margin to keep the page tidy and framed appropriately.*/
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;       /* Again, to differentiate between the title and headings of both pages,
+                                I altered the background colour of the menu bar by making it somewhat lighter.
+                                This also helps to subdue the dark black tones of the other backgrounds
+                                so that they aren't too overpowering.  */
+}
+li {
+  float: left;
+ }
+li a {
+  display: block;
+  color: white;
+  font-family: "Verdana", Sans-serif;
+text-shadow: 2px 2px darkred;
+  text-align: center;
+  padding: 15px 16px;
+  text-decoration: none;
+}
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: darkred ;
+}
+
+
+
+
+
+.P1{                                        /* TEXT */
+                                            /* For the paragraphs of text used within both of my pages,
+                                            I have made sure the text font and colour is user-friendly. By
+                                            keeping the colour of the text black, it doesn't interfere with
+                                            the colour of the body's background. I have used the font (Arial, Sans-serif)
+                                            as it is the default font that is widely used on most websites
+                                            and it is a safe choice. */
+
+margin-left: inherit;
+margin: 10px;
+font-family: "Arial", Sans-serif;
+}
+
+
+
+
+
+.footer1{                                    /* FOOTER */
+                                             /* I've added a footer to contain general information
+                                             for both pages, including my Pnumber & the page numbers. */
+text-align: center;
+}
+
+.Footer2{
+
+text-align: center;
+}
+
+div{                                         /* Text */
+                                             /* I've used the box model around each section of text to keep all the text html
+                                             elements together and organised. */
+
+width: 1265px;
+border: 15px
+solid black;
+padding: 10px;
+margin-left: 10px;
+margin-top: 20px;
+
+}
+
+.trailervideo{                               /* Trailer */
+                                             /* I have added a margin to the trailer.
+                                             This is to upkeep the page so that it is tidy and symmetrical. */
+margin-left: 10px;
+
+}
+
+.P1-Page2{
+
+text-align: right;
+margin-left: 500px;
+
+}

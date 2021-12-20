@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Spider-Man: No Way Home: The most anticipated film of the year/Home</title> <!-- Title -->
+                                                                                   <!-- To define the title for the page,
+                                                                                   I have named it as the header within
+                                                                                   the title tag element. I have also put "/home"
+                                                                                   at the end to identify which page the viewer
+                                                                                   is specifically looking at. -->
+
+<link rel="stylesheet" href="CSS\style.css"> <!-- CSS Stylesheet Link -->
+                                         <!-- Here I have linked the stylesheet to the page,
+                                         so now any design aspects such as the font-family and colour will be implemented. -->
+  </head>
+  <body>
+
+<header>
+<h1>Spider-Man: No Way Home: The most anticipated film of the year!</h1> <!-- Title -->
+</header>                                                                <!-- I have inlcuded the title here in
+                                                                         the header within a "h1" element as it is the
+                                                                         main and most important heading of the page. -->
+
+<ul>
+  <li><a class="active" href="home.html">Home</a></li>    <!-- Menu bar -->
+  <li><a href="Page2.html">Cast</a></li>                  <!-- Here is the menu bar. This should make it easier to navigate
+                                                          between pages. I have included it at the top of the page below the
+                                                          title as they usually feature in a row or collumn along the top of
+                                                          most websites. -->
+
+</ul>                                               <!-- Section -->
+                                                    <!-- I added a div element to define each section of text on both pages. -->
+<div class="div">
+<section>
+<article class="SynopsisArticle">
+<h2 class="T3">Synopsis</h2>
+<b class="P1">Release date: 15 December 2021</b>                         <!-- I wanted this sentence before the Synopsis
+                                                                         to be in bold because It is an important point of
+                                                                       information and i wanted it to outline this. -->
+<p class="P1">
+  With Spider-Man's identity now revealed,
+  our friendly neighborhood web-slinger is unmasked
+   and no longer able to separate his normal life as Peter Parker
+   from the high stakes of being a superhero. When Peter asks for help
+   from Doctor Strange, the stakes become even more dangerous,
+   forcing him to discover what it truly means to be Spider-Man.</p>
+   </div>
+</article>
+</section>
+
+
+<section> <!-- Section -->
+<h2 class="T2">Check out the trailer here!</h2>   <!-- Trailer Section -->
+
+  <video class="trailervideo" width="750" height="435"; autoplay muted loop>     <!-- Here I have included a video element. I have set it to autoplay
+                                                           on a loop. The video should automatically start playing on a loop, so
+                                                           the viewer shouldn't need to click any buttons to play the trailer.
+                                                           I have also included other file formats to allow those viewing on
+                                                           alternate browers to be able to see it. -->
+    <source src="VIDEO\trailer.mp4" type="video/mp4">
+    <source src="VIDEO\trailer.mov" type="video/mov">
+    <source src="VIDEO\trailer.ogv" type="video/ogv">
+    <source src="VIDEO\trailer.flv" type="video/flv">
+    Your browser does not support the video tag.
+  </video>
+<img src="IMAGE\image1.jfif" alt="image1" style="float:right;margin-right: 10px;margin-top:6px;width:550px;" >
+</section>
+
+<footer class="footer1">P2656474 | Page 1</footer> <!-- Footer -->
+
+
+  </body>
+</html>
